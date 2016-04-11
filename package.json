@@ -1,0 +1,50 @@
+{
+  "name": "gl-movable-camera",
+  "version": "1.0.0",
+  "description": "A camera that can be easily be moved and turned.",
+  "scripts": {
+    "start": "budo --live example/index.js -- -t glslify",
+    "test": "standard"
+  },
+  "keywords": [
+    "stackgl",
+    "camera",
+    "movable",
+    "turnable",
+    "gl",
+    "webgl"
+  ],
+  "author": "Eric Arnebäck <arnebackeric@gmail.com> (https://github.com/Erkaman)",
+  "license": "MIT",
+  "devDependencies": {
+    "bmfont-lato": "^2.1.1",
+    "budo": "^7.1.0",
+    "bunny": "^1.0.1",
+    "gl-basic-shader": "^1.3.0",
+    "gl-geometry": "^3.1.0",
+    "gl-now": "^1.4.0",
+    "gl-shader": "^4.2.0",
+    "gl-sprite-text": "^2.3.1",
+    "glslify": "^5.0.2",
+    "normals": "^1.0.1",
+    "standard": "^5.4.1"
+  },
+  "dependencies": {
+    "gl-mat4": "^1.1.4",
+    "gl-vec3": "^1.0.3",
+    "rotate-vector-about-axis": "^1.0.2"
+  },
+  "directories": {
+    "example": "example"
+  },
+  "browserify": {
+    "transform": [
+      "glslify"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Erkaman/gl-movable-camera.git"
+  },
+  "homepage": "https://github.com/Erkaman/gl-movable-camera#readme"
+}
