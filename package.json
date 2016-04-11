@@ -1,6 +1,6 @@
 {
   "name": "gl-movable-camera",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A camera that can be easily be moved and turned.",
   "scripts": {
     "start": "budo --live example/index.js -- -t glslify",
