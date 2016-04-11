@@ -17,7 +17,7 @@ var createText = require('gl-sprite-text')
 var createBasicShader = require('gl-basic-shader')
 var Lato = require('bmfont-lato/32')
 
-var camera = createMovableCamera( {position: vec3.fromValues(-30.0, -9.0, -7.0), viewDir: vec3.fromValues(0.71, 0.71, 0) } );
+var camera = createMovableCamera( {position: vec3.fromValues(-30.0, 12.0, -7.0), viewDir: vec3.fromValues(0.71, -0.21, 0) } );
 
 var shader, bunnyGeom, program
 
